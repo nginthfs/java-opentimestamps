@@ -24,7 +24,7 @@ dependencies {
     testImplementation 'junit:junit:4.13.1'
 }
 
-group = 'com.eternitywall'
+group = 'com.github.nginthfs'
 version = '1.21'
 description = 'java-opentimestamps'
 java.sourceCompatibility = JavaVersion.VERSION_11
