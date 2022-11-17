@@ -6,7 +6,7 @@
 
     <groupId>com.eternitywall</groupId>
     <artifactId>java-opentimestamps</artifactId>
-    <version>1.20</version>
+    <version>1.21</version>
 
     <name>java-opentimestamps</name>
     <description>The java implementation of the OpenTimestamps protocol</description>
@@ -54,6 +54,11 @@
     </distributionManagement>
 
     <dependencies>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>31.0-jre</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
